@@ -1,0 +1,12 @@
+.textAnimation {
+    font-size: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.letter {
+    display: inline-block;
+    opacity: 0; /* Initially hidden */
+    transform: scale(1);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
